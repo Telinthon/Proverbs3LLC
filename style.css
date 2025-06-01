@@ -7,13 +7,15 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url('https://pixabay.com/get/ea35b70b2dfb1c22d2524518b7484f91fe76e6d004b0144391f1c4.jpg'); /* Background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    color: #fff; /* Text color so it stands out against the pizza background */
     line-height: 1.6;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black for header to stand out */
     color: #fff;
     padding: 1rem;
     display: flex;
@@ -47,6 +49,8 @@ a:hover {
 section {
     padding: 2rem;
     margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for content sections */
+    border-radius: 10px; /* Rounded corners for sections */
 }
 
 h2 {
@@ -85,7 +89,7 @@ form input, form textarea {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent footer background */
     color: #fff;
     text-align: center;
     padding: 1rem;
